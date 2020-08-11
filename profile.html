@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>E-Learning</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="classsStart.css">
+    <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aleo">
+</head>
+<body>
+<header>
+       
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand ml-5" href="index.html"> 
+      <img src="/img/e-learning-svgrepo-com.svg" alt="" width="50" id="book">E-Learning
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="Start.html"> 
+              Start a class
+              <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+            Register as Student</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+            Register as Staff</a>
+          </li>
+            <li class="nav-item">
+              <a class="nav-link" href="library.html" >Library
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" > 
+                Services
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" > 
+                Staffs
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="profile.html" > 
+                Proflie
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Account  Login
+              </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">As staff</a>
+              <a class="dropdown-item" href="#">As student</a>
+              
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+</header>
+<div class="main">
+    <div class="side">
+        <div class="sideimg">
+          <img src="/img/paul-hanaoka-BJ25B9sonUs-unsplash.jpg" class="img-fluid" alt="" id="sideImg">
+    <h1>Oleh Emmanuel</h1>
+          <br><button class="btn btn-lg" type="file">Edit Photo</button>
+    <button class="btn btn-lg">Edit Profile</button> 
+        </div>
+        <div class="sidebtn text-center mt-5">
+    <button class="btn btn-lg" data-toggle="collapse" href="#collapseOne" id="btn">Proress</button><br><br>
+    <button class="btn btn-lg" data-toggle="collapse" href="#collapseTwo" id="btn">Class Attended</button><br><br>
+    <button class="btn btn-lg" data-toggle="collapse" href="#collapseThree" id="btn">Result</button>
+        </div>
+    </div>
+    <div class="info pt-5">
+        <div class="container mt-5">
+            <div id="accordion" class="mt-5">
+              <div class="Progress">
+                <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                  <div class="card-body">
+                    <h1 class="mt-5">Progress</h1>
+                    <p>Know your progress</p>
+
+                    <div class="progress mt-5">
+                        <div class="progress-bar bg-success" style="width:40%">
+                          Free Space
+                        </div>
+                        <div class="progress-bar bg-warning" style="width:10%">
+                          Warning
+                        </div>
+                        <div class="progress-bar bg-danger" style="width:20%">
+                          Danger
+                        </div>
+                      </div>
+                      <div class="refresh text-right">
+                        <button class="btn mt-5 ">Refresh</button>
+                      </div>
+                    </div>
+              </div>
+              <div class="Classes Attended bg-transparent">
+                <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                  <div class="card-body">
+                    <h1 class="mt-5">Attendance</h1>
+                    <p>Your weekily Attendance</p>
+                    <ul class="list-group">
+                        <div class="list-header">
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                          Monday
+                          <input  type="checkbox" >
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Tuesday
+                            <input  type="checkbox" >
+                          </li>
+                          <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Wednesday
+                            <input  type="checkbox" >
+                          </li>
+                          <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Thursday
+                            <input  type="checkbox" >
+                          </li>
+                          <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Friday
+                            <input  type="checkbox" >
+                          </li>
+                      </ul>
+                  </div>
+                  </div>
+                </div>
+                </div> 
+              <div class="Result bg-transparent">
+                <div id="collapseThree" class="collapse" data-parent="#accordion">
+                  <div class="card-body">
+                    <h1 class="mt-5">Result</h1>
+                    <h3>Subjects  and  Scores</h3>
+                    <ul class="list-group">
+                        
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                          Staffs
+                          <span class="badge badge-primary badge-pill">14</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                          Primary
+                          <span class="badge badge-primary badge-pill">2</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                          Junior secondary
+                          <span class="badge badge-primary badge-pill">2</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                          Senior secondary
+                          <span class="badge badge-primary badge-pill">2</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                          Jamb Candidates
+                          <span class="badge badge-primary badge-pill">2</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                          Waec and Neco Candidates
+                          <span class="badge badge-primary badge-pill">2</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                          Total of
+                          <span class="badge badge-primary badge-pill">1</span>
+                        </li>
+                      </ul>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>

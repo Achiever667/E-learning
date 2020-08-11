@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.ServiceMain .row .col-sm .img{
+    background: #3ec7e6;
+     padding: 10px;
+    margin: 10px;
+
+}
+
+.ServiceMain .row .col-sm img{
+    border-radius: 50em; 
+    background: #fff;
+    /* background: blue; padding: 10px; */
+    margin: 10px;
+
+}
+.container .btn{
+    display: inline;
+    font-family: dosis;
+    margin: 5px;
+    background: #434b50;
+    color:#fff;
+}

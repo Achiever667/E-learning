@@ -1,0 +1,25 @@
+*{
+    margin-top: 0;
+    padding: 0;
+}
+
+.StartMain{
+    background: #3ec7e6;
+    height:100vh auto;
+}
+video{
+    background: #fff;
+    width: 100%;
+    height: 350px;
+}
+.row{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.container .btn{
+    display: inline;
+    font-family: dosis;
+    margin: 5px;
+    background: #434b50;
+    color:#fff;
+}
