@@ -67,13 +67,16 @@ form
     width: 300px;
 }
 .registermain
-.registertop
-.container-fluid
-.row #anni{
-     background:
+{
+    height: auto; 
+    background:
      url('img/annie-spratt-OIuCXxx08yg-unsplash.jpg');
      background-repeat: no-repeat;
      background-size: cover;
+}
+form{
+    background: #ffffff;
+    opacity: 0.55;
 }
 .registermain
 .registertop
@@ -82,7 +85,7 @@ form
 form
 .form-inline input{
     height: 40px;
-    width: 250px;
+    width: 100%;
     padding: 10px;
     color: #000000;
     background-color: transparent;

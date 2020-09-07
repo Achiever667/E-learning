@@ -19,6 +19,9 @@ li .nav-link{
     font-family: -apple-system;
     font-weight: bold;
 }
+a:active{
+    border-bottom: 2px solid #ffffff;
+}
 li .nav-link:hover{
     color: #fff;
     border-bottom: 2px solid #fff;

@@ -5,11 +5,21 @@
 
 .ServiceMain .row .col-sm .img{
     background: #3ec7e6;
-     padding: 10px;
-    margin: 10px;
+    padding: 20px;
+    
 
 }
+.ServiceMain .row .col-sm{
+    color: #434b50;
+    border:1px solid #000000;
+    padding: 10px;
+    margin: 40px;
+}
 
+.ServiceMain .row .col-sm h1{
+    color: black;
+    padding: 30px;
+}
 .ServiceMain .row .col-sm img{
     border-radius: 50em; 
     background: #fff;
@@ -20,7 +30,7 @@
 .container .btn{
     display: inline;
     font-family: dosis;
-    margin: 5px;
+    /* margin: 5px; */
     background: #434b50;
     color:#fff;
 }
