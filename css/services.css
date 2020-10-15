@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
 }
-
+html, body{
+    background: rgb(236, 255, 255);
+    opacity: 0.99;
+}
 .ServiceMain .row .col-sm .img{
     background: #3ec7e6;
     padding: 20px;
@@ -21,7 +24,10 @@
     padding: 30px;
 }
 .ServiceMain .row .col-sm img{
-    border-radius: 50em; 
+    width: 160px;
+    height: 80px;
+    border-radius: 1em; 
+    /* padding: 20px; */
     background: #fff;
     /* background: blue; padding: 10px; */
     margin: 10px;
@@ -30,7 +36,12 @@
 .container .btn{
     display: inline;
     font-family: dosis;
+    padding: 10px 50px 10px 50px;
     /* margin: 5px; */
     background: #434b50;
     color:#fff;
+}
+
+footer .container .col-sm ul li:hover{
+    border-left: 1px solid #fff;
 }
