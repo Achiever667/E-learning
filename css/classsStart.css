@@ -23,3 +23,7 @@ video{
     background: #434b50;
     color:#fff;
 }
+.list-group{
+    box-shadow: 0.4px 4px 4px 4px #434b50;
+    font-family: -apple-system;
+}

@@ -1,5 +1,5 @@
 
-@media screen and(max-width:600){
+@media(max-width:856px){
 .registertop{
      background:
      url('img/annie-spratt-OIuCXxx08yg-unsplash.jpg');
@@ -22,7 +22,19 @@ form
     border-bottom: 1px solid dodgerblue;
 
 }
-
+#anni{
+    height: 30vh;
+    position: absolute;
+    top: 0;
+    /* z-index: -1; */
+}
+ .row .col-sm .spinner-grow #depth{
+    z-index: -2;
+    display: none;
+} 
+/* .col-sm .spinner-grow{
+    height: 100%;
+} */
 
 }
 
@@ -52,6 +64,7 @@ form
      margin: 20px;
 }
 .container-fluid .btn{
+    width: 100%;
     z-index: 20;
     display: inline;
     font-family: dosis;
