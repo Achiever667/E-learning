@@ -103,5 +103,27 @@ video{
     font-family: -apple-system;
 }
 
+.main .side button{
+    /* text-align: center; */
+    width: 100px auto;
+    font-size: 15px;
+    display: inline;
+    font-family: dosis;
+    margin: 5px;
+    background: #86adc5;
+    color:#fff;
+}
+.main .side #btn{
+    margin-top: 50px;
+    /* text-align: center; */
+    width: 160px;
+    display: inline;
+    font-family: dosis;
+    margin: 5px;
+    font-size: 16px;
+    background: #86adc5;
+    color:#fff;
+}
+
 
 }

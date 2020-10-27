@@ -11,7 +11,9 @@
     padding: 10px 0px 10px 30px;
     margin: 20px 0px 30px 0px;
     border: 1px solid #1073a0;
+    border-radius: 5px;
     flex-direction: column;
+    box-shadow: 0.4px 4px 4px 4px #1073a0;
 }
 }
 .staff{
@@ -32,6 +34,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     cursor: pointer;
+    box-shadow: 0.4px 4px 4px 4px #1073a0;
+
 }
 .staff-details{
     padding: 20px 0px 10px 30px;
